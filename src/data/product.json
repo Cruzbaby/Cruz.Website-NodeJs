@@ -1,0 +1,13 @@
+
+[
+    {
+        "id": 0,
+        "ProductName": "Cruz.Bank",
+        "ProductPrice": 2000
+    },
+    {
+        "id": 1,
+        "ProductName": "Cruz.Market",
+        "ProductPrice": 1500
+    }
+]
