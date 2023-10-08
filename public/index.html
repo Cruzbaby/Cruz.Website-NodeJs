@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://media.discordapp.net/attachments/573089140300709898/1078998447467806761/cruz1.png?width=671&height=671">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link @import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');    	rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <title>Cruz Developer</title>
+    <link rel="stylesheet" href="../Style/assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="../Style/assets/css/owl.css">
+    <link rel="stylesheet" href="../Style/assets/css/animate.css">
+    <style>
+        body {
+            max-width: 100vw;
+            color: #fff;
+            /* overflow-x: hidden; */
+            font-family: "Anuphan", sans-serif;
+            background: radial-gradient(50% 50% at 50% 50%,#131313 50%,#0a0a0a 100%);
+        }
+
+        .hero.style4 {
+            min-height: 700px;
+            padding-top: 90px;
+            padding-bottom: 90px;
+        }
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: auto;
+            max-width: 1650px;
+        }
+
+        .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .hero.style4 .hero_in {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .hero.style4 .hero_in_left {
+            width: 100%;
+        }
+
+        .hero.style4 .hero_text {
+            background: linear-gradient(90.41deg, rgba(255, 255, 255, 0.025) -0.38%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.025) 99.66%);
+            border-radius: 25px;
+            padding: 70px;
+            max-width: 100vw;
+        }
+
+        .hero.style4 .hero_title {
+            text-align: center;
+            font-size: 58px;
+            margin-bottom: 25px;
+        }
+
+        .hero.style4 .hero_subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 30px;
+            line-height: 1.5em;
+        }
+
+        .hero_btns {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        .hero_btns .hero_btn:not(:last-child) {
+            margin-right: 20px;
+        }
+
+        .hero_btn.style1.color3 {
+            background-image: linear-gradient(to right, #54b3d6, #54b3d6 100%, #fff 50%);
+            color: #fff;
+            transition: transition .15s ease-in-out, transform .15s ease-in-out;
+
+        }
+        .hero_btn.style1.color1:hover {
+            transition: 0.5s;
+            transform: scale(1.05);
+        }
+
+        .hero_btn.style1.color3:hover {
+            transition: 0.5s;
+            transform: scale(1.05);
+        }
+
+        .hero_btn.style1 {
+            font-weight: 500;
+            color: #fff;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            padding: 9px 29px;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            border-radius: 1.6em;
+            line-height: 1.55em;
+            position: relative;
+        }
+        .hero_btn.style1.color1 {
+            background-color: #fff;
+            transition: transition .15s ease-in-out, transform .15s ease-in-out;
+            color: #050023;
+        }
+        .hero.style4 .hero_in_right {
+            width: 45%;
+        }
+
+        .wojo-grid {
+            width: auto;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding-right: 1rem;
+            padding-left: 1rem;
+        }
+
+        .row.gutters {
+    margin-left: -2rem;
+}
+
+@media screen and (min-width: 64.063em) {
+    .row .columns.screen-50 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+.row.gutters > .columns {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.h4, h4 {
+    font-size: 2rem;
+}
+.row .columns.auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    white-space: nowrap;
+}
+.wojo.big.buttons .button, .wojo.big.button {
+    font-size: 1rem;
+    padding: 1.25rem 2rem;
+}
+.wojo.primary.buttons .button, .wojo.primary.button {
+    background-image: linear-gradient(to right, #54b3d6, #54b3d6 100%, #fff 50%);
+    color: #fff;
+    border-color: #54b3d6;
+}
+.wojo.button {
+    cursor: pointer;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    vertical-align: middle;
+    background-color: #757575;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.875rem 1.875rem;
+    line-height: 1rem;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+    border: 1px solid #757575;
+    box-sizing: content-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    position: relative;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1350px;
+}@media screen and (min-width: 992px) {
+.cs-height_45 {
+    height: 45px;
+}
+}.row {
+    margin-left: -120px;
+    margin-right: 0px;
+}.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}.row>* {
+    padding-left: 15px;
+    padding-right: 15px;
+}@media (min-width: 992px) {
+    .offset-lg-3 {
+    margin-left: 25%;
+}
+}
+@media (min-width: 992px)
+{
+    .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
+
+.cs-iconbox.cs-style2 {
+    background-color: rgba(255, 255, 255, 0.025);
+    border-radius: 5px;
+    text-align: center;
+    padding: 35px 0 30px;
+    border-radius: 25px;
+    margin-bottom: 10vw;
+}
+.cs-box_shadow {
+    -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.05);
+}.cs-iconbox.cs-style2 .cs-iconbox_icon {
+    margin-bottom: 15px;
+}
+.cs-iconbox.cs-style2 .cs-iconbox_title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+
+
+.fa-download,
+.fa-user,
+.fa-cart-shopping {
+    color: #54b3d6;
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+
+.cs-iconbox.cs-style2 .cs-iconbox_subtitle {
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <section class="hero style4 bg center">
+        <div class="container-fluid">
+            <div class="hero_in">
+            <div class="hero_in_left">
+                <div class="hero_text">
+                <h1 class="hero_title white_color">Cruz Developer <br> <span class="hero_subtitle">We try our best to make your experience better.</span></h1>
+                <!-- <div class="hero_subtitle medium white_color">Secure and secret fivem resource <br>:)</div> -->
+                <div class="hero_btns">
+                    <a href="store" class="hero_btn style1 color3"><span>Store</span></a>
+                    <a href="https://discord.com/invite/PMJavgzSbR" target="_blank" class="hero_btn style1 color1"> <span><i class="fab fa-discord fa-fw"></i> Discord </span></a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <div class="container " >
+        <div class="wojo-grid">  
+            <div class="row gutters align middle spaced">  
+              <div class="columns screen-50 tablet-60 mobile-100 phone-100">  
+                <div data-weditable="true" class="">  
+                  <h4 class="wojo text underlined">
+                    Buy products as your needs
+                  </h4>
+                </div>
+              </div>
+              
+            </div>
+        <div class="row">
+          <div class="col-lg-3 offset-lg-2" >
+            <div class="cs-iconbox cs-style2 cs-box_shadow">
+              <div class="cs-iconbox_icon">
+                <i class="fa-light fa-download"></i>                     
+              </div>
+                <h2 class="cs-iconbox_title">2</h2>          
+                <p class="cs-iconbox_subtitle">Download</p>
+            </div>
+            <div class="cs-height_30 cs-height_lg_30"></div>
+          </div>
+          <div class="col-lg-3">
+            <div class="cs-iconbox cs-style2 cs-box_shadow">
+              <div class="cs-iconbox_icon">
+                <i class="fa-light fa-user"></i>                
+              </div>
+    
+                <h2 class="cs-iconbox_title">2</h2>          
+                <p class="cs-iconbox_subtitle">Members</p>
+            </div>
+            <div class="cs-height_30 cs-height_lg_30"></div>
+          </div>
+          <div class="col-lg-3">
+            <div class="cs-iconbox cs-style2 cs-box_shadow">
+              <div class="cs-iconbox_icon">
+                <i class="fa-light fa-cart-shopping"></i>              
+            </div>
+    
+            <h2 class="cs-iconbox_title">2</h2>          
+            <p class="cs-iconbox_subtitle">Purchases</p>
+            </div>
+            <div class="cs-height_30 cs-height_lg_30"></div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
